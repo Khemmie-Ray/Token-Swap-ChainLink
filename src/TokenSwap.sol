@@ -5,12 +5,9 @@ import "../lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
 import {AggregatorV3Interface} from "../lib/chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
 
 contract TokenSwap {
-    address public immutable ETH_ADDRESS =
-        0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9;
-    address public immutable DAI_ADDRESS =
-        0x3e622317f8C93f7328350cF0B56d9eD4C620C5d6;
-    address public immutable LINK_ADDRESS =
-        0x779877A7B0D9E8603169DdbD7836e478b4624789;
+    address public immutable ETH_ADDRESS = 0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9;
+    address public immutable DAI_ADDRESS = 0x3e622317f8C93f7328350cF0B56d9eD4C620C5d6;
+    address public immutable LINK_ADDRESS = 0x779877A7B0D9E8603169DdbD7836e478b4624789;
 
     constructor(
         address _ETH_ADDRESS,
